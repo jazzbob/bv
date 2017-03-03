@@ -1,2 +1,5 @@
-# bv
-Bayesian Verification under Model Uncertainty
+# Bayesian Verification under Model Uncertainty
+
+Machine learning enables systems to build and update domain models based on runtime observations. In this paper, we study statistical model checking and runtime verification for systems with this ability. Two challenges arise: (1) Models built from limited runtime data yield uncertainty to be dealt with. (2) There is no definition of satisfaction w.r.t. uncertain hypotheses. We propose such a definition of subjective satisfaction based on recently introduced satisfaction functions. We also propose the BV algorithm as a Bayesian solution to runtime verification of subjective satisfaction under model uncertainty. BV provides user-definable stochastic bounds for type I and II errors. We discuss empirical results from an example application to illustrate our ideas.
+
+Paper on arXiv: https://arxiv.org/pdf/1702.08725.pdf
